@@ -1,5 +1,12 @@
+import { Route } from "react-router-dom"
+
 const Welcome = ()=>{
-    return <h2>Welcome to: Welcome page</h2>
+    return <section>
+        <h1>Welcome Here</h1>
+        <Route path="/welcome/new-user">
+            <p>Hi, New User</p>
+        </Route>
+    </section>
 }
 
 export default Welcome
